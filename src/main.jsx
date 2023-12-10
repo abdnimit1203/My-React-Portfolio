@@ -5,6 +5,6 @@ import Homepage from './pages/Homepage.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Homepage></Homepage>
+    <Homepage/>
   </React.StrictMode>,
 )

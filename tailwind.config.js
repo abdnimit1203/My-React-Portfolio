@@ -5,11 +5,11 @@ export default {
       {
         mytheme: {
         
-            "primary": "#facc15",
+            "primary": "#0CC0DF",
                     
             "secondary": "#185f96",
                     
-            "accent": "#96d5f7",
+            "accent": "#0097B2",
                     
             "neutral": "#44403c",
                     
