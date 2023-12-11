@@ -11,7 +11,7 @@ const Nav = () => {
   };
   return (
     <div className="flex text-slate-600 fixed items-center justify-center w-[90%] md:w-[80%] mx-auto bottom-6  z-10 ">
-      <div className="flex items-center gap-2 bg-[#111111a9] py-2 backdrop-blur-sm text-white px-6 rounded-full ">
+      <div className="flex items-center gap-1 sm:p-2 bg-[#111111a9] py-1 sm:p-2 backdrop-blur-sm text-white px-6 rounded-full ">
         <img src="assets/images/logoABD.png" alt="ABD Portfolio"  className="md:mx-4 w-[40px] md:w-[48px]" />
         <ul className="flex gap-6 font-semibold text-xl">
           <Link
@@ -22,7 +22,7 @@ const Nav = () => {
             offset={-50}
             duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-1 sm:p-2"
           >
             <GoHomeFill />
           </Link>
@@ -34,7 +34,7 @@ const Nav = () => {
             offset={0}
             duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-1 sm:p-2"
           >
             <SiAboutdotme />
           </Link>
@@ -46,7 +46,7 @@ const Nav = () => {
             offset={0}
             duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-1 sm:p-2"
           >
             <RiUserSettingsFill />
           </Link>
@@ -58,7 +58,7 @@ const Nav = () => {
             offset={0}
             duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-1 sm:p-2"
           >
             <CgCodeSlash />
           </Link>
@@ -70,7 +70,7 @@ const Nav = () => {
             offset={0}
             duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-1 sm:p-2"
           >
             <MdContactMail />
           </Link>

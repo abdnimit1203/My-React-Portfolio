@@ -7,13 +7,13 @@ const Skills = () => {
       <HeaderText text1="Learn about my" text2="Skills" />
       <div>
         <Marquee gradient={true} speed={25} pauseOnHover={true}>
-          <img src="assets/images/html5.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-28"/>
-          <img src="assets/images/css.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-28"/>
-          <img src="assets/images/js.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-28"/>
+          <img src="assets/images/html5.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
+          <img src="assets/images/css.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
+          <img src="assets/images/js.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
           <img src="assets/images/tailwind.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-36"/>
-          <img src="assets/images/bootstrap.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-28"/>
-          <img src="assets/images/fire.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-40"/>
-          <img src="assets/images/github.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-28"/>
+          <img src="assets/images/bootstrap.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
+          <img src="assets/images/fire.png" alt="image" className="mx-6 md:mx-10 w-16 sm:w-20 md:w-40"/>
+          <img src="assets/images/github.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
           <img src="assets/images/react-router-color.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-36"/>
           <img src="assets/images/python.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-36"/>
         </Marquee>

@@ -8,7 +8,7 @@ import Skills from "../components/Skills/Skills";
 
 const Homepage = () => {
   return (
-    <div className="w-[90%] md:w-[80%] mx-auto space-y-8">
+    <div className="w-[90%] md:w-[80%] mx-auto space-y-8 ">
       <Nav />
       <Header />
       <About />

@@ -17,7 +17,7 @@ const About = () => {
         </div>
         <div className=" text-lg md:text-xl md:w-3/4">
           <p className="hover:scale-110 ease-in-out transition cursor-pointer rounded-lg hover:border p-4 ">
-            My academic background includes a{" "}
+            My name is <span className="text-primary font-semibold">Abdullah Ibne Ali</span>. My academic background includes a{" "}
             <span className="text-primary font-semibold"> BSc</span> in Computer
             Science and Engineering
             <span className="text-primary font-semibold"> (CSE)</span> from
@@ -47,7 +47,7 @@ const About = () => {
             offset={-50}
             duration={800}
           >
-            <button className="btn btn-secondary hover:btn- transition duration-300 ease-in-out hover:scale-105 mt-10 ">
+            <button className="btn btn-secondary hover:btn- transition duration-300 ease-in-out hover:scale-105 mt-10 m-4">
               <MdOutlineConnectWithoutContact className="text-xl" /> Let's Talk
             </button>
           </Link>
