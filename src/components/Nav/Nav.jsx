@@ -31,7 +31,7 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={0}
             duration={800}
             onSetActive={handleSetActive}
             className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
@@ -43,7 +43,7 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={0}
             duration={800}
             onSetActive={handleSetActive}
             className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
@@ -55,7 +55,7 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={0}
             duration={800}
             onSetActive={handleSetActive}
             className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
@@ -67,7 +67,7 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={0}
             duration={800}
             onSetActive={handleSetActive}
             className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
