@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { RiUserSettingsFill } from "react-icons/ri";
 import { SiAboutdotme } from "react-icons/si";
 import { CgCodeSlash } from "react-icons/cg";
-
+import "./Nav.css"
 const Nav = () => {
   const handleSetActive = (to) => {
     console.log(to);
@@ -12,17 +12,17 @@ const Nav = () => {
   return (
     <div className="flex text-slate-600 fixed items-center justify-center w-[90%] md:w-[80%] mx-auto bottom-6  z-10 ">
       <div className="flex items-center gap-2 bg-[#111111a9] py-2 backdrop-blur-sm text-white px-6 rounded-full ">
-        <img src="assets/images/logoABD.png" alt="ABD Portfolio" width="40px" />
+        <img src="assets/images/logoABD.png" alt="ABD Portfolio"  className="md:mx-4 w-[40px] md:w-[48px]" />
         <ul className="flex gap-6 font-semibold text-xl">
           <Link
             to="header"
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={-50}
+            duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-2 hover:text-primary cursor-pointer"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
           >
             <GoHomeFill />
           </Link>
@@ -31,10 +31,10 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={-50}
+            duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-2 hover:text-primary cursor-pointer"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
           >
             <SiAboutdotme />
           </Link>
@@ -43,10 +43,10 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={-50}
+            duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-2 hover:text-primary cursor-pointer"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
           >
             <RiUserSettingsFill />
           </Link>
@@ -55,10 +55,10 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={-50}
+            duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-2 hover:text-primary cursor-pointer"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
           >
             <CgCodeSlash />
           </Link>
@@ -67,10 +67,10 @@ const Nav = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={50}
-            duration={500}
+            offset={-50}
+            duration={800}
             onSetActive={handleSetActive}
-            className="text-2xl md:mx-2 hover:text-primary cursor-pointer"
+            className="text-2xl md:mx-1 rounded-full text-slate-200 hover:text-primary cursor-pointer p-2"
           >
             <MdContactMail />
           </Link>

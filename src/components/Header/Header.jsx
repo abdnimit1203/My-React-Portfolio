@@ -56,7 +56,7 @@ const Header = () => {
       >
         <LuMouse className="text-2xl text-accent" />
         Scroll Down
-        <FaAngleDoubleDown className=" text-accent" />
+        <FaAngleDoubleDown className=" text-accent animate-bounce" />
       </button>
     </div>
   );
