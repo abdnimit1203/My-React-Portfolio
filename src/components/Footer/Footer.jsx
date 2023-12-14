@@ -15,7 +15,11 @@ const Footer = () => {
         </aside> 
         <nav>
           <header className="footer-title">Social</header> 
+          <div className="py-4">
+            <p>Get in touch with me through social media platform.</p>
+          </div>
           <div className="grid grid-flow-col gap-4 text-2xl text-primary">
+            
           <Link
             to={"https://www.linkedin.com/in/abdullah-ibne-ali"}
             target="_blank"
@@ -31,9 +35,7 @@ const Footer = () => {
           </div>
 
         </nav>
-        <div>
-          <img src="https://lottie.host/embed/819d5503-fcac-4b6d-892d-e06ab484e60d/p5Qi5bZ9qz.json" alt="img" />
-        </div>
+       
       </footer>
     );
 };

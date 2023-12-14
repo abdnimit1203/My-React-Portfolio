@@ -8,7 +8,7 @@ const About = () => {
     <div id="about" data-aos="fade-up"  data-aos-duration="500">
       <HeaderText text1="Get to know" text2="About Me" />
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-        <div className="md:w-1/2 overflow-x-auto" data-aos="fade-up"  data-aos-duration="1200">
+        <div className="md:w-1/2 " data-aos="fade-up"  data-aos-duration="1200">
           <img
             src="assets/images/abd3-circle-ylw.png"
             alt="abdullah-image"
