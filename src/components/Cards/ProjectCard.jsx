@@ -2,18 +2,39 @@ import { BsCarFront, BsFillBuildingsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import { Link } from "react-router-dom";
-
+import "./ProjectCard.css";
+import SliderProject from "../SliderProject/SliderProject";
 const ProjectCard = () => {
+  const project1 = [
+    "https://i.imgur.com/VSH8CJ6.png",
+    "https://i.imgur.com/RH5Gc40.png",
+    "https://i.imgur.com/afi9cSD.png",
+    "https://i.imgur.com/ALejUMr.png",
+  ];
+  const project2 = [
+    "https://i.imgur.com/mEaH2ts.png",
+    "https://i.imgur.com/RVkfpN9.png",
+    "https://i.imgur.com/LmnQbpC.png",
+    "https://i.imgur.com/SU7hQlR.png",
+    "https://i.imgur.com/OnQdcVY.png"
+  ];
+  const project3 = [
+    "https://i.imgur.com/d6Y4B8D.png",
+    "https://i.imgur.com/3Hmi51N.png",
+    "https://i.imgur.com/NxWTtU9.png",
+    "https://i.imgur.com/p06Y0kn.png",
+    "https://i.imgur.com/UiJdpIg.png"
+  ];
   return (
     <div className="my-16 space-y-6 md:space-y-12">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl hover:scale-105 transition duration-150 ">
-        <div>
-          <img
-            src="https://i.ibb.co/vJMP6T6/hompage.png"
-            alt="project -demo"
-            className="aspect-square object-cover md:max-w-[360px] rounded-xl mx-auto hover:cursor-pointer hover:lg:scale-150 transition duration-200"
-          />
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl  transition duration-150 bg-cyan-50 items-center border" data-aos="fade-right"  data-aos-duration="800">
+        <div className="content">
+          <SliderProject projectImages={project1}></SliderProject>
+          {/* <div className="screen">
+          <img src="https://i.ibb.co/vJMP6T6/hompage.png"  className="cursor-pointer"/>
+        </div> */}
         </div>
+
         <div className="text-center">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
             ABuild Homes Estate{" "}
@@ -23,7 +44,7 @@ const ProjectCard = () => {
             A real estate website where people can buy houses by offering price.
             There are 3 roles and Dashboards for each type of users.There is -{" "}
             <span className="font-semibold">User, Agent and Admin </span>
-            role for this website. 
+            role for this website.
             <br />
             Admin manages the properties , total sales and user roles. Stripe
             payment is available
@@ -56,18 +77,14 @@ const ProjectCard = () => {
           </div>
         </div>
       </div>
-     
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-6 text-center justify-center shadow-md p-6 rounded-xl hover:scale-105 transition duration-150 ">
-      <div className="block md:hidden">
-          <img
-            src="assets/images/wheelsworld.png"
-            alt="project -demo"
-            className="aspect-square object-cover md:max-w-[360px] rounded-xl mx-auto hover:cursor-pointer hover:lg:scale-150 transition duration-200"
-          />
+
+      <div className="grid grid-cols-1 md:grid-cols-2  gap-6 text-center justify-center shadow-md p-6 rounded-xl   transition duration-150 bg-cyan-50 items-center border "  data-aos="fade-right"  data-aos-duration="800">
+        <div className="block md:hidden">
+        <SliderProject projectImages={project2}></SliderProject>
         </div>
         <div className="text-center">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
-            Wheels World 
+            Wheels World
             <BsCarFront className="text-3xl text-rose-600 inline ml-4" />
           </h2>
           <p className="my-6 text-sm md:text-base max-w-xl mx-auto">
@@ -106,31 +123,27 @@ const ProjectCard = () => {
           </div>
         </div>
         <div className="md:block hidden">
-          <img
-            src="assets/images/wheelsworld.png"
-            alt="project -demo"
-            className="aspect-square object-cover md:max-w-[360px] rounded-xl mx-auto hover:cursor-pointer hover:lg:scale-150 transition duration-200"
-          />
+        <SliderProject projectImages={project2}></SliderProject>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl hover:scale-105 transition duration-150 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center justify-center shadow-md p-6 rounded-xl   transition duration-150 bg-cyan-50 items-center"  data-aos="fade-right"  data-aos-duration="800">
         <div>
-          <img
-            src="assets/images/colab.png"
-            alt="project -demo"
-            className="aspect-square object-cover md:max-w-[360px] rounded-xl mx-auto hover:cursor-pointer hover:lg:scale-150 transition duration-200"
-          />
+        <SliderProject projectImages={project3}></SliderProject>
         </div>
         <div className="text-center">
           <h2 className="text-xl font-bold gap-4 items-center text-center">
-          📝 ColabTask
-
+            📝 ColabTask
           </h2>
           <p className="my-6 text-sm md:text-base max-w-xl mx-auto">
-          An Online based student group stdy platform. Where students can share heir assignments and submit them at the same time! Student can chat post and discuss!
-          <br />All subitted assignments can be marked else it gets pending status.
-          A student can see all their submitted assignments and other details. Their is chat post feature where students can discuss matters with others.
+            An Online based student group stdy platform. Where students can
+            share heir assignments and submit them at the same time! Student can
+            chat post and discuss!
+            <br />
+            All subitted assignments can be marked else it gets pending status.
+            A student can see all their submitted assignments and other details.
+            Their is chat post feature where students can discuss matters with
+            others.
           </p>
           <div className="flex gap-2 items-center justify-center">
             <img src="assets/images/react.png" alt="react" className="w-10" />

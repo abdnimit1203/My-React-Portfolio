@@ -3,7 +3,7 @@ import HeaderText from "../HeaderText/HeaderText";
 
 const Projects = () => {
     return (
-        <div id="projects">
+        <div id="projects" data-aos="fade-up"  data-aos-duration="500">
            <HeaderText text1={"View my"} text2={"Projects"}/>
            <div>
             <h3 className="text-lg font-bold text-accent">PORTFOLIO</h3>

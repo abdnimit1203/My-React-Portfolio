@@ -3,7 +3,7 @@ import HeaderText from "../HeaderText/HeaderText";
 
 const Skills = () => {
   return (
-    <div id="skills" className="py-10">
+    <div id="skills" className="py-10"  data-aos="fade-up"  data-aos-duration="1000">
       <HeaderText text1="Learn about my" text2="Skills" />
       <div>
         <Marquee gradient={true} speed={25} pauseOnHover={true}>
@@ -22,7 +22,7 @@ const Skills = () => {
           <p className="md:text-lg text-xs font-semibold row-span-2 md:row-span-1">Tech Stack |</p>
           <img src="assets/images/mongo.png" alt="image" className="mx-auto w-10 md:w-24"/>
           <img src="assets/images/express.png" alt="image" className="mx-auto w-10 md:w-24"/>
-          <img src="assets/images/react.png" alt="image" className="mx-auto w-10 md:w-24"/>
+          <img src="assets/images/react.png" alt="image" className="mx-auto w-10 md:w-24 "/>
           <img src="assets/images/node.png" alt="image" className="mx-auto w-10 md:w-24"/>
          <p className="hidden md:block"></p>
           <p className="mx-auto my-6 text-primary">M</p>
