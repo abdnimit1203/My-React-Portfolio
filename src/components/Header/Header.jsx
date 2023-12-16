@@ -28,7 +28,7 @@ const Header = () => {
     console.log(`Done after 5 loops!`);
   };
 
-  const [init, setInit] = useState(false);
+  const [, setInit] = useState(false);
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
