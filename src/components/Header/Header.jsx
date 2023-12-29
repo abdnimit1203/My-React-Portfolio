@@ -8,7 +8,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 import CV from "../../../public/assets/images/ABDULLAH IBNE ALI_FrontEnd_Resume.pdf";
 import { Link } from "react-router-dom";
-import { animateScroll } from "react-scroll";
+import { scroller } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
 
 import { useEffect, useState } from "react";
@@ -22,6 +22,7 @@ const Header = () => {
   const options = {
     duration: 1500,
     smooth: true,
+    offset: 50,
   };
 
   const handleDone = () => {
@@ -32,9 +33,7 @@ const Header = () => {
 
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      
       await loadSlim(engine);
-     
     }).then(() => {
       setInit(true);
     });
@@ -598,11 +597,13 @@ const Header = () => {
         options={optionsp}
       />
       <div className="hero-content flex-col lg:flex-row-reverse justify-between ">
-        <div  data-aos="fade-right"  data-aos-duration="1200">
+        <div data-aos="fade-right" data-aos-duration="1200">
           <img src="assets/images/abd2.png" className="max-w-sm rounded-lg " />
         </div>
         <div className="py-6 max-w-md">
-          <h1 className="text-4xl  md:text-5xl font-bold" data-aos="fade-up">Hi ! I'm ABDULLAH</h1>
+          <h1 className="text-4xl  md:text-5xl font-bold" data-aos="fade-up">
+            Hi ! I'm ABDULLAH
+          </h1>
           {/* <h3 className="py-4 text-2xl font-semibold text-slate-600">
             Frontend Developer
           </h3> */}
@@ -626,7 +627,10 @@ const Header = () => {
               />
             </span>
           </h3>
-          <p className="py-6 text-lg md:text-xl bg-white rounded-xl " data-aos="fade-up">
+          <p
+            className="py-6 text-lg md:text-xl bg-white rounded-xl "
+            data-aos="fade-up"
+          >
             Passionate and detail-oriented Front-End Developer proficient in the
             MERN stack with 6 months of hands-on experience in creating
             responsive and user-friendly web applications.
@@ -635,8 +639,8 @@ const Header = () => {
             <CiLocationOn className="animate-pulse text-xl" /> Dhaka, Bangladesh
           </p>
 
-          <a href={CV} download  data-aos="fade-up"  data-aos-duration="1500">
-            <button className="btn btn-primary text-white transition duration-300 ease-in-out hover:scale-105" >
+          <a href={CV} download data-aos="fade-up" data-aos-duration="1500">
+            <button className="btn btn-primary text-white transition duration-300 ease-in-out hover:scale-105">
               <SiGoogledocs className="text-xl" /> Download Resume
             </button>
           </a>
@@ -656,7 +660,7 @@ const Header = () => {
         </div>
       </div>
       <button
-        onClick={() => animateScroll.scrollToBottom(options)}
+        onClick={() => scroller.scrollTo("aboutEle", options)}
         className="cursor-pointer md:ml-[15%] flex gap-2 items-center mx-4  my-10 transition duration-300 ease-in-out hover:scale-105 "
       >
         <LuMouse className="text-2xl text-accent" />

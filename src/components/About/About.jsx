@@ -1,11 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
 import HeaderText from "../HeaderText/HeaderText";
-import { Link } from "react-scroll";
+import { Element, Link } from "react-scroll";
 
 const About = () => {
   return (
-    <div id="about" data-aos="fade-up"  data-aos-duration="500">
+    <div name="about" id="about" data-aos="fade-down"  data-aos-duration="600">
+      <Element name="aboutEle"></Element>
+
       <HeaderText text1="Get to know" text2="About Me" />
       <div className="flex flex-col md:flex-row justify-center items-center gap-6">
         <div className="md:w-1/2 " data-aos="fade-up"  data-aos-duration="1200">

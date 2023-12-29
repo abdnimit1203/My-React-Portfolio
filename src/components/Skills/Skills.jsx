@@ -6,7 +6,7 @@ const Skills = () => {
     <div id="skills" className="py-10"  data-aos="fade-up"  data-aos-duration="1000">
       <HeaderText text1="Learn about my" text2="Skills" />
       <div>
-        <Marquee gradient={true} speed={25} pauseOnHover={true}>
+        <Marquee gradient={true} speed={100} pauseOnHover={true} >
           <img src="assets/images/html5.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
           <img src="assets/images/css.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
           <img src="assets/images/js.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>

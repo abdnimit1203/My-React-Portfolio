@@ -59,6 +59,10 @@ const ProjectCard = () => {
             <img src="assets/images/react.png" alt="react" className="w-10" />
             <img src="assets/images/node.png" alt="node" className="w-10" />
           </div>
+          <div className="flex justify-center text-xs text-gray-500 flex-col pt-2 md:pt-5">
+            <p>Demo email : <span className="text-sky-700">demo@email.com</span> </p>
+            <p>Demo password : <span className="text-sky-700">Demo123@</span> </p>
+          </div>
           <div className="font-semibold my-8 space-x-6 ">
             <Link
               to={"https://github.com/abdnimit1203/Abuild-Homes-Estate-Client"}
