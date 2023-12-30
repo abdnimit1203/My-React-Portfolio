@@ -11,36 +11,39 @@ const Contact = () => {
       <HeaderText text1={"Connect with me"} text2={"Contact"} />
       <div className="grid grid-cols-1 md:grid-cols-3 justify-center  gap-6 lg:gap-16" >
         <div className="flex gap-6 flex-col md:col-span-1">
-          <article className="border-4 border-primary rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:bg-primary text-primary hover:text-white text-base" data-aos="fade-right"  data-aos-duration="800">
+          <article className="border-4 border-primary rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:border-[#d94b44] hover:text-[#d94b44] hover:bg-[#f7f8fc] text-primary  text-base hover:shadow-lg" data-aos="fade-right"  data-aos-duration="800">
+            <div>
+
             <p>
-              <MdEmail className="text-5xl w-full  hover:text-white" />
+              <MdEmail className="text-5xl w-full  " />
             </p>
             <h4>Email</h4>
+            </div>
             <h5 className="break-normal md:break-all">
               abdullah.ibneali152pro@gmail.com
             </h5>
             <a
               href="mailto:abdullah.ibneali152pro@gmail.com"
-              className="transition duration-150 text-base font-bold hover:scale-110"
+              className="transition duration-150 text-base font-bold hover:scale-105 btn btn-ghost btn-sm hover:border-2 hover:border-[#d94b44] hover:bg-white"
             >
-              Send a message
+              Send a mail
             </a>
           </article>
-          <article className="border-4 border-primary rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:bg-primary text-primary hover:text-white text-base" data-aos="fade-right"  data-aos-duration="900">
+          <article className="border-4 border-primary hover:border-white rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:bg-[#5aca66] text-primary hover:text-white text-base" data-aos="fade-right"  data-aos-duration="900">
             <p>
               <RiWhatsappFill className="text-5xl w-full  hover:text-white" />
             </p>
             <h4>WhatsApp</h4>
-            <h5>Contact my phone number</h5>
+            
             <a
               href="https://api.whatsapp.com/send?phone=8801761609974"
               target="_blank"
-              className="transition duration-150 text-base font-bold hover:scale-110"
+              className="transition duration-150 text-base font-bold hover:scale-105  btn btn-ghost btn-sm hover:border-2 hover:border-white"
             >
               Send a message
             </a>
           </article>
-          <article className="border-4 border-primary rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:bg-primary text-primary hover:text-white text-base" data-aos="fade-right"  data-aos-duration="1000">
+          <article className="border-4 border-primary hover:border-white rounded-xl p-6 justify-center items-center text-center gap-6 flex flex-col lg:text-xl font-medium hover:bg-gradient-to-tr hover:from-[#2a7dfd] hover:via-[#9d35fd] hover:to-[#f75087] text-primary hover:text-white text-base" data-aos="fade-right"  data-aos-duration="1000">
             <p>
               <FaFacebookMessenger className="text-5xl w-full  hover:text-white" />
             </p>
@@ -49,7 +52,7 @@ const Contact = () => {
             <a
               href="https://m.me/abd.nimit"
               target="_blank"
-              className="transition duration-150 text-base font-bold hover:scale-110"
+              className="transition duration-150 text-base font-bold hover:scale-105 btn btn-ghost btn-sm hover:border-2 hover:border-white"
             >
               Send a message
             </a>
