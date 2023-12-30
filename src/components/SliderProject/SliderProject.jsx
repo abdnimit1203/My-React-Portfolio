@@ -15,7 +15,7 @@ import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 
 const SliderProject = ({ projectImages }) => {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
-  console.log(projectImages);
+  // console.log(projectImages);
   return (
     <div>
       <Swiper

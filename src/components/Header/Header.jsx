@@ -6,7 +6,7 @@ import { LuMouse } from "react-icons/lu";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
-import CV from "../../../public/assets/images/ABDULLAH IBNE ALI_FrontEnd_Resume.pdf";
+import Resume from "../../../public/assets/images/ABDULLAH IBNE ALI_FrontEndReact_Resume.pdf";
 import { Link } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
@@ -39,9 +39,9 @@ const Header = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container) => {
+  //   console.log(container);
+  // };
 
   const optionsp = {
     autoPlay: true,
@@ -593,7 +593,7 @@ const Header = () => {
     <div className="w-full py-10 md:py-16 " id="header">
       <Particles
         id="tsparticles"
-        particlesLoaded={particlesLoaded}
+        // particlesLoaded={particlesLoaded}
         options={optionsp}
       />
       <div className="hero-content flex-col lg:flex-row-reverse justify-between ">
@@ -639,7 +639,7 @@ const Header = () => {
             <CiLocationOn className="animate-pulse text-xl" /> Dhaka, Bangladesh
           </p>
 
-          <a href={CV} download data-aos="fade-up" data-aos-duration="1500">
+          <a href={Resume} download data-aos="fade-up" data-aos-duration="1500">
             <button className="btn btn-primary text-white transition duration-300 ease-in-out hover:scale-105">
               <SiGoogledocs className="text-xl" /> Download Resume
             </button>
