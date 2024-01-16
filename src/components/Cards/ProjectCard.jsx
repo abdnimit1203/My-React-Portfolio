@@ -72,7 +72,7 @@ const ProjectCard = () => {
               Code <FaGithub className="inline" />
             </Link>
             <Link
-              to={"https://abuild-homesabd.web.app/"}
+              to={"https://abuild-homes-estate-abd.netlify.app/"}
               target="_blank"
               className="transiton duration-150 hover:text-primary"
             >
