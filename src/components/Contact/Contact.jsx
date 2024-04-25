@@ -3,7 +3,8 @@ import { RiWhatsappFill } from "react-icons/ri";
 import HeaderText from "./../HeaderText/HeaderText";
 import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger } from "react-icons/fa";
-import { toast } from "react-toastify";
+import ContactForm from "../Forms/ContactForm";
+
 
 const Contact = () => {
   return (
@@ -59,61 +60,7 @@ const Contact = () => {
           </article>
         </div>
         <div className="md:col-span-2 lg:max-w-[80%]" data-aos="fade-up"  data-aos-duration="1000">
-          <form 
-          action="https://formspree.io/f/mknlddzp"
-          onSubmit={()=>toast.success("Your Message was sent")}
-          method="POST" 
-          className="space-y-6">
-            <div>
-              <label className="sr-only" htmlFor="name">
-                Name
-              </label>
-              <input
-                className="w-full rounded-lg border-gray-200 p-3 text-sm border-2 focus:outline-primary lg:py-5 lg:px-5"
-                placeholder="Your Full Name"
-                type="text"
-                name="username"
-                id="name"
-                required
-              />
-            </div>
-            <div>
-              <label className="sr-only" htmlFor="email">
-                Your Email
-              </label>
-              <input
-                className="w-full rounded-lg border-gray-200 p-3 text-sm border-2 focus:outline-primary lg:py-5  lg:px-5"
-                placeholder="Your Email"
-                name="email"
-                type="text"
-                id="email"
-                required
-              />
-            </div>
-            <div>
-              <label className="sr-only" htmlFor="message">
-                Your Message
-              </label>
-
-              <textarea
-                className="w-full rounded-lg border-gray-200 p-3 text-sm border-2 focus:outline-primary  lg:px-5 lg:py-5"
-                placeholder="Your Message"
-                rows="8"
-                name="message"
-                id="message"
-              ></textarea>
-            </div>
-
-            <div className="mt-4">
-              <button
-                type="submit"
-                
-                className="inline-block w-full rounded-lg btn btn-primary px-5 py-3 font-medium text-white sm:w-auto"
-              >
-                Send Mail
-              </button>
-            </div>
-          </form>
+         <ContactForm/>
         </div>
       </div>
     </div>

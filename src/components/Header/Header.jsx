@@ -608,7 +608,7 @@ const Header = () => {
             Frontend Developer
           </h3> */}
           <h3 className="py-4 text-2xl font-semibold text-slate-600">
-            <span className="text-primary">
+            <span className="text-primary bg-white">
               {/* Style will be inherited from the parent element */}
               <Typewriter
                 words={[
@@ -632,7 +632,7 @@ const Header = () => {
             data-aos="fade-up"
           >
             Passionate and detail-oriented Front-End Developer proficient in the
-            MERN stack with 6 months of hands-on experience in creating
+            MERN stack with hands-on experience in creating
             responsive and user-friendly web applications.
           </p>
           <p className="text-primary flex gap-2 items-center mb-6">

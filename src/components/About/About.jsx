@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
+import { FcBriefcase } from "react-icons/fc";
 import HeaderText from "../HeaderText/HeaderText";
 import { Element, Link } from "react-scroll";
 
@@ -61,8 +62,10 @@ const About = () => {
             and enjoy the real world. I am always seeking out adventure and
             eager to learn about the world through travel.
           </p>
-          <div className="p-4 pt-10">
-            <h2 className="text-2xl font-bold pb-3 textpri">Work Experience</h2>
+          <div className="p-8 mt-10 border-4 border-primary rounded-lg w-fit relative group hover:drop-shadow-md hover:shadow-primary transition duration-300 ">
+          <FcBriefcase className="absolute text-5xl right-2 top-2 rotate-6 opacity-70 transition duration-300 group-hover:rotate-[20deg] group-hover:scale-125"/>
+
+            <h2 className="text-2xl font-bold py-3 textpri">Work Experience</h2>
             <div className="">
               <p>
                 <span className="font-[500]">Software Engineer</span> at{" "}

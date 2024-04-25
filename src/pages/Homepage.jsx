@@ -7,7 +7,8 @@ import Nav from "../components/Nav/Nav";
 import Projects from "../components/Projects/Projects";
 import Skills from "../components/Skills/Skills";
 import { Helmet } from "react-helmet";
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Homepage = () => {
   // const imageUrl = 'https://i.imgur.com/VOSNPvb.jpg';
   const pageUrl = 'https://abdullah-dev-portfolio.vercel.app';
@@ -37,6 +38,7 @@ const Homepage = () => {
         <Skills />
         <Projects />
         <Contact />
+        <ToastContainer />
       </section>
       <div className="mt-10 md:mt-20">
         <Footer />
