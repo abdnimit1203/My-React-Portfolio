@@ -9,8 +9,8 @@ import Skills from "../components/Skills/Skills";
 import { Helmet } from "react-helmet";
 
 const Homepage = () => {
-  const imageUrl = 'https://i.imgur.com/VOSNPvb.jpg';
-  const pageUrl = 'https://abdullah-portfolio-frontend.netlify.app/';
+  // const imageUrl = 'https://i.imgur.com/VOSNPvb.jpg';
+  const pageUrl = 'https://abdullah-dev-portfolio.vercel.app';
 
   Aos.init()
   return (
@@ -24,7 +24,7 @@ const Homepage = () => {
         {/* Open Graph meta tags */}
         <meta property="og:title" content="Abdullah Ibne Ali - Front-end Web Developer" />
         <meta property="og:description" content="Abdullah Ibne Ali - Front-end Web Developer | MERN Stack Developer | Computer Science Graduate" />
-        <meta property="og:image" content={imageUrl} />
+        <meta property="og:image" content="https://i.ibb.co/mFPRNy7/Abdullah-Ibne-Ali-FRONT-END-DEVELOPER-OG.png" />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
       </Helmet>
