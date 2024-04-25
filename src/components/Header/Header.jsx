@@ -6,7 +6,7 @@ import { LuMouse } from "react-icons/lu";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 
-import Resume from "../../../public/assets/images/ABDULLAH IBNE ALI_FrontEndReact_Resume.pdf";
+import Resume from "../../../public/assets/images/Resume_Abdullah Ibne Ali_Frontend Developer.pdf";
 import { Link } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";

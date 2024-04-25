@@ -15,6 +15,7 @@ const Skills = () => {
           <img src="assets/images/fire.png" alt="image" className="mx-6 md:mx-10 w-16 sm:w-20 md:w-40"/>
           <img src="assets/images/github.png" alt="image" className="mx-6 md:mx-10 w-10 sm:w-20 md:w-28"/>
           <img src="assets/images/react-router-color.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-36"/>
+          <img src="assets/images/nextjs.png" alt="nextjs" className="mx-6 md:mx-10 w-20 md:w-36"/>
           <img src="assets/images/python.png" alt="image" className="mx-6 md:mx-10 w-20 md:w-36"/>
         </Marquee>
       </div>
