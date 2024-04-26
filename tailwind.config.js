@@ -27,9 +27,9 @@ export default {
   },
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    screens: {
-      'md': '800px'
-    },
+    // screens: {
+    //   'md': '800px'
+    // },
     extend: {
       animationDuration: {
         "1s": "1s",
